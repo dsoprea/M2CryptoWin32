@@ -55,7 +55,7 @@ install_requires = []
 
 setuptools.setup(
       name='M2CryptoWin32',
-      version='0.21.1-2',
+      version='0.21.1-3',
       description="M2Crypto for Windows (32-bit)",
       long_description=long_description,
       classifiers=[],
@@ -63,7 +63,6 @@ setuptools.setup(
       author='Dustin Oprea',
       author_email='myselfasunder@gmail.com',
       url='https://github.com/dsoprea/M2CryptoWin32',
-      license='GPL 2',
       packages=setuptools.find_packages(exclude=[]),
       include_package_data=True,
       zip_safe=False,
